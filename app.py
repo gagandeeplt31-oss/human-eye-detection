@@ -27,7 +27,7 @@ def load_model():
     # --- Ensure this path is correct for your local or cloud setup ---
     # For Cloud, use: model_path = "best.pt"
     # For Local, use the full path:
-    model_path = r"C:\Users\CSAB\Desktop\Project\runs\detect\train-3\weights\best.pt"
+    model_path = "best.pt"
     return YOLO(model_path)
 
 try:
